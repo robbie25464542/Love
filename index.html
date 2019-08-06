@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Our Love Story</title>
+	<title>和邢处长爱的故事</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<style type="text/css">
 		@font-face {
@@ -16,61 +16,64 @@
 </head>
 
 <body>
+	<audio autoplay="autoplay" loop=""><source src="music.mp3"></audio>
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
+				<span class="space"/><span class="comments">* 这是我们的第一个七夕，奈何邢处长被封闭了，【摊手】（ps:哈哈哈）！！！</span><br />
+				<span class="space"/><span class="comments">* 你在培训中，我也不知道送东西到什么地方，不过省钱了！</span><br />
+				<span class="space"/><span class="comments">* 想到要不咱也体现体现工科男的浪漫，在这跟你也表表白好了，【脸红】</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
 				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
 				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
+				<span class="comments">// 2018年的10月29日, 那是我们的第一次见面。</span><br />
+				i.meet(u);<br />
+				<span class="comments">// 从见你的第一眼，我就觉得这个女孩笑起来是那么的动人，（长得美！！）</span><br />
+				<span class="comments">// 内心深入就有了想拥有你的念头，于是下定决心去追你，哈哈</span><br />
+				i.make_decision()
+				<span class="comments">// 幸运的是，没过多久，我就成功的把你追(zhan)到(yu)手(ma)了(xia)，嘿嘿～</span><br />
 				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
+				<span class="comments">// 从那天开始，因为我们并不在一个地方，所以我每天都在想你～</span><br />
 				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
+				<span class="comments">// 我想保护你，无论发生什么，我想照顾你一生一世～</span><br />
 				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
+				<span class="comments">// 我们开始去旅游，我想和你一起走遍世界的角落，所以加油挣钱吧～【笑哭】</span><br />
+				<span class="comments">// 我们还要一起去做很多事，还会有小宝宝，你是不是也在希望我的双胞胎基因努努力！</span><br />
+				<span class="comments">// 我们会结婚，会有无数个情人节，所以我们会有很多书，对么。。。咱孩子肯定跟你一样是学霸！</span><br />
 				i.marry(u);<br />
+				<span class="keyword">boolean</span> is_xueba = <span class="keyword">True</span>;<br />
+				<span class="keyword">while</span> (i.alive and u.alive) {<br />
+				<span class="placeholder"/>book = u.get_book();<br />
+				<span class="placeholder"/>children.get(book);<br />
+				}<br />
+				<span class="comments">// 无论以后发生什么，相信我们都将幸福的生活在一起～～</span><br />
 				i.liveHappilyWith(u);<br />
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						邢处长，我已经和你相恋
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						我会永远爱你<br/>
+						<div class="signature">- 你的小可爱</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
-			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
+			Copyright © 2019 <a href='http://wangxiao.rd'>王潇</a> 2019-2019
 		</div>
 	</div>
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2010, 10, 2);
-		together.setHours(20);
+		together.setFullYear(2018, 10, 29);
+		together.setHours(10);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
